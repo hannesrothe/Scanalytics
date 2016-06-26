@@ -1,0 +1,54 @@
+body{
+	background-color: #95C2E0;
+	
+}
+
+#main{
+	position: relative;
+	text-align: justify;
+	max-width: 800px;
+	min-height: 400px;
+	background-color: #ffffff;
+	padding: 10px 10px 10px 10px;
+}
+.data_box{
+	width: 40%;
+	display: inline-block;
+	border: solid;
+	padding: 10px 10px 10px 10px;
+	vertical-align: top;
+}
+#debug {
+	position: absolute;
+	bottom: 20px;
+	width: 400px;
+	background-color: rgb(144, 241, 163);
+	font-weight: bold;
+	font-size: 120%;
+	color: #084213;
+	margin: 0px 0px 10px 0px;
+}
+#debug li{
+	text-decoration: none;
+	font-weight: normal;
+	font-size: 80%;
+	color: #000000;
+	list-style-type: none;
+	margin: 0px 0px 10px 0px;
+	padding: 5px 0px 5px 20px;
+	
+	background-image: linear-gradient(right , rgb(255,255,255) 38%, rgb(255,255,255) 69%, rgb(144, 241, 163)18%);
+	background-image: -o-linear-gradient(right , rgb(255,255,255) 38%, rgb(255,255,255) 69%, rgb(144, 241, 163)18%);
+	background-image: -moz-linear-gradient(right , rgb(255,255,255) 38%, rgb(255,255,255) 69%, rgb(144, 241, 163)18%);
+	background-image: -webkit-linear-gradient(right , rgb(255,255,255) 38%, rgb(255,255,255) 69%, rgb(144, 241, 163)18%);
+	background-image: -ms-linear-gradient(right , rgb(255,255,255) 38%, rgb(255,255,255) 69%, rgb(144, 241, 163)18%);
+
+	background-image: -webkit-gradient(
+		linear,
+		right top,
+		left top,
+		color-stop(0.38, rgb(255,255,255)),
+		color-stop(0.69, rgb(255,255,255)),
+		color-stop(0.18, rgb(144, 241, 163))
+	);
+}
